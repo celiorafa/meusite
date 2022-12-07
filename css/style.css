@@ -30,8 +30,10 @@ h1{
 
 h2{
   font-family: MalbergTrial-Regular;
+  font-size: 3vw;
   letter-spacing: 5px;
   text-align: center;
+  margin-top: 0;
 }
 
 .fotoPerfil{
