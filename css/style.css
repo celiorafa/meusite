@@ -5,6 +5,7 @@ body{
 
 }
 
+
 @font-face{
   font-family: "MalbergTrial-Heavy";
   src: url('../fonts/MalbergTrial-Heavy.ttf');
@@ -38,7 +39,16 @@ h2{
 
 .fotoPerfil{
   width: 20vw;
+  margin-top: 50px;
+
 }
+.itens{
+  border-radius: 30px;
+  width: 100vw;
+  max-width: 700px;
+
+}
+
 
 /* seta animada */
 #arrowAnim {
@@ -47,6 +57,7 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .arrow {
