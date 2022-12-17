@@ -1,0 +1,79 @@
+body{
+  background-color: #121828;
+  margin: 0 5%;
+  background-image: url("../img/fundo.png");
+  background-repeat: no-repeat;
+  background-position: top;
+
+}
+
+
+@font-face{
+  font-family: "MalbergTrial-Heavy";
+  src: url('../fonts/MalbergTrial-Heavy.ttf');
+}
+@font-face{
+  font-family: "MalbergTrial-Regular";
+  src: url('../fonts/MalbergTrial-Regular.ttf');
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #d2a55a;
+
+}
+
+h1{
+  font-family: MalbergTrial-Heavy;
+  font-size: 3vw;
+  width: fit-content;
+}
+
+h2{
+  font-family: MalbergTrial-Regular;
+  font-size: 2vw;
+  letter-spacing: 2px;
+  text-align: justify;
+  margin-top: 10px;
+  width: 100%;
+  text-indent:2em;
+}
+
+h3{
+  font-family: MalbergTrial-Heavy;
+  font-size: 3vw;
+  text-align: center;
+  width: 90vw;
+  
+}
+
+.fotoPerfil{
+  width: 60%;
+  margin-top: 0px;
+
+}
+
+.itens{
+  border-radius: 10px;
+  width: 100vw;
+  max-width: 700px;
+
+  
+}
+
+.videoContainer {
+  position: relative;
+  height: 0;
+  padding-top: 56.25%;
+  width:100%;
+}
+.videoContainer iframe {
+  position: absolute;
+  top: 0; left: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}

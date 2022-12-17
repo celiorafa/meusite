@@ -1,7 +1,9 @@
 body{
-  background-color: #282e3d;
-
+  background-color: #121828;
   margin: 0 auto;
+  background-image: url("../img/fundo.png");
+  background-repeat: no-repeat;
+  background-position: top;
 
 }
 
@@ -27,6 +29,7 @@ body{
 h1{
   font-family: MalbergTrial-Heavy;
   font-size: 5vw;
+  width: fit-content;
 }
 
 h2{
@@ -35,19 +38,24 @@ h2{
   letter-spacing: 5px;
   text-align: center;
   margin-top: 0;
+  width: 90vw;
+}
+
+h3{
+  font-family: MalbergTrial-Heavy;
+  font-size: 3vw;
+  text-align: center;
+  width: 90vw;
+  
 }
 
 .fotoPerfil{
-  width: 20vw;
+  width: 60vw;
   margin-top: 50px;
 
 }
-.itens{
-  border-radius: 30px;
-  width: 100vw;
-  max-width: 700px;
 
-}
+
 
 
 /* seta animada */
@@ -101,3 +109,17 @@ h2{
   100% { opacity:0; transform: translateY(7.5vw); }	
 }
 /* fim seta animada */
+
+
+.itens{
+  border-radius: 10px;
+  width: 100vw;
+  max-width: 700px;
+
+  
+}
+
+.itens:hover{
+  box-shadow: inset 0 0 0 5px #d2a55a;
+}
+
