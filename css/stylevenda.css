@@ -1,0 +1,92 @@
+
+/* ------------ celular -------------------------- */
+
+
+@font-face{
+  font-family: "MalbergTrial-Heavy";
+  src: url('../fonts/MalbergTrial-Heavy.ttf');
+}
+@font-face{
+  font-family: "MalbergTrial-Regular";
+  src: url('../fonts/MalbergTrial-Regular.ttf');
+}
+
+body{
+  background-color: #121828;
+  margin: 0 5%;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: MalbergTrial-Regular;
+
+}
+
+
+.topo{
+  height: 50px
+}
+
+nav{
+  display: flex;
+}
+
+li{
+  margin-right: 20px;
+}
+
+.menu{
+  display: flex;
+  margin-top: 3px;
+  font-size: 2vw;
+  color: #e6e3e4;
+  list-style-type: none;
+  font-family: MalbergTrial-Regular;
+  letter-spacing: 2px;
+}
+.pagina{
+  display: flex;
+  flex-direction: row;
+}
+
+.capaimovel{
+  width: 341px;
+  height: 192px;
+  margin: 15px;
+  
+}
+.capa{
+
+  width: 100%;
+  border-radius: 15px;
+}
+
+.capa:hover{
+  transform: scale(1.2);
+  transition: transform .2s;
+}
+
+h2{
+  font-family: MalbergTrial-Regular;
+  font-size: 3vw;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-top: 0;
+  width: 90vw;
+}
+
+h3{
+  font-family: MalbergTrial-Heavy;
+  font-size: 3vw;
+  text-align: center;
+  width: 90vw;
+  
+}
+
+
+h1{
+  font-family: MalbergTrial-Heavy;
+  font-size: 5vw;
+  width: fit-content;
+  color: #d2a55a;
+  letter-spacing: 5px;
+}
+
